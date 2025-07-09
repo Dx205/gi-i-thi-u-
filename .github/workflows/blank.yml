@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin của Đại</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Bo tròn ảnh */
+            object-fit: cover; /* Đảm bảo ảnh không bị méo */
+            border: 5px solid #e9e9e9;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+            color: #1c1e21;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            font-weight: normal;
+            color: #606770;
+            margin-bottom: 25px;
+        }
+
+        .about-me p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: left; /* Căn lề trái cho đoạn giới thiệu */
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        .social-links {
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            background-color: #0866ff; /* Màu của Facebook */
+            color: white;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 8px;
+            text-decoration: none; /* Bỏ gạch chân của link */
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        
+        /* Màu riêng cho từng nút */
+        .social-links a.zalo { background-color: #0068ff; }
+        .social-links a.github { background-color: #333; }
+        .social-links a.email { background-color: #ea4335; }
+
+
+        .social-links a:hover {
+            transform: scale(1.05); /* Hiệu ứng phóng to khi di chuột */
+            opacity: 0.9;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img width=100 src="https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/484904997_684583023912858_5085271464031965228_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGF4bo02G6MR29DQAtLMmpqLECoWUOTHZUsQKhZQ5MdlbiSPQURm4iFJS-T9ndcAxAaHTjaerUbU9rzkvt1YF5T&_nc_ohc=cz-Ibgsq9nQQ7kNvwHVQUvU&_nc_oc=AdnWjPuSsHkI426E_SYWOu5QsWCIzGZUg2TUOf0KdeC5LIHfUs9E7aU5QBPa8yl5LsE&_nc_zt=23&_nc_ht=scontent.fhan5-11.fna&_nc_gid=x_ebUHFtlnOKe9i091OFMA&oh=00_AfSoDoAnHZ3rth20oWeA0svukp_IGRYeUbb16P-PYfoN6Q&oe=6873CDC7" alt="Ảnh đại diện" class="profile-pic">
+
+        <h1>Vũ Quốc Đại</h1>
+
+        <h2>Lập Trình Viên Web &  Nội Dung</h2>
+
+        <div class="about-me">
+             <p>
+                Xin chào! Tôi là một lập trình viên có đam mê xây dựng những trang web đẹp và hữu ích.
+                Với kinh nghiệm còn hạn chế, tôi luôn tìm kiếm cơ hội để học hỏi công nghệ mới và đóng góp vào các dự án thú vị.
+                Hãy kết nối với tôi qua các mạng xã hội bên dưới nhé!
+            </p>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/vu.dai.948850/?locale=vi_VN" target="_blank">Facebook</a>
+            <a href="https://zalo.me/0963572913" target="_blank" class="zalo">Zalo</a>
+            <a href="https://github.com/Dx205" target="_blank" class="github">GitHub</a>
+            <a href="mail to:vuquangvien1950@gmail.com" class="email">Email</a>
+        </div>
+    </div>
+
+</body>
+</html>
